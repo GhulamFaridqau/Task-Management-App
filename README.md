@@ -134,5 +134,6 @@ These tasks are from mock api but on run time user can add tasks, change there s
 **React Router DOM:** A library for handling navigation and routing in a React application.
 
 **react-dnd:** A library for adding drag-and-drop functionality to React components.
+**react-transition-group:** A library for adding transition to react components.
 
 **Please note that since the mock API is used, data changes are not persistent and will be reset on server restart.**
