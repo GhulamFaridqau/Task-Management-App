@@ -26,6 +26,9 @@ The user data and tasks are fetched from a **mock API**, which is set up using p
 
 **For user data**, the API endpoint is /users, and it provides an array of user objects with properties like email, password, and grouptype.
 **For Login use these users credentials** which were get by mock api;
+
+These tasks are from mock api but on run time user can add tasks, change there status of complete/incomplete and can also delet tasks and can change order by drag and drop.
+
 [
 
 {
