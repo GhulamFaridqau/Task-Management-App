@@ -30,9 +30,8 @@ The app will be running at http://localhost:3000.
 The user data and tasks are fetched from a **mock API**, which is set up using postman mock api system. The **getUserApi** and **getTasksListAPI** functions in the api.js file fetch data from the corresponding API endpoints using Axios.
 
 **For user data**, the API endpoint is /users, and it provides an array of user objects with properties like email, password, and grouptype.
-**For Login use these users credentials** which were get by mock api;
 
-These tasks are from mock api but on run time user can add tasks, change there status of complete/incomplete and can also delet tasks and can change order by drag and drop.
+**For Login use these users credentials** which were get by mock api;
 
 [
 
@@ -85,6 +84,9 @@ These tasks are from mock api but on run time user can add tasks, change there s
 
 
 **For task data**, the API endpoint is /tasks, and it provides an array of task objects with properties like id, title, description, and completed.
+
+These tasks are from mock api but on run time user can add tasks, change there status of complete/incomplete and can also delet tasks and can change order by drag and drop.
+
 [
 
 {
