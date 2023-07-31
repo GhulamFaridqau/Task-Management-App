@@ -6,6 +6,9 @@ This is a Task Management application built using React, Redux, Material-UI and 
 https://task-management-system-test.netlify.app/
 
 **Running the Application**
+You can Just run the application by clicking on above deployed link and login using user credentials provided below
+or
+
 To run the Task Management app, follow these steps:
 
 cd task-management-app
