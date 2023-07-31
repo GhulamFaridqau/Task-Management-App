@@ -52,7 +52,6 @@ export default function Login() {
             el.grouptype.toLowerCase() === selectedGroup.toLowerCase()
         );
         if (user.length > 0) {
-          alert("Login successful");
           dispatch(setUser(user[0]));
           localStorage.setItem("userId", user[0].id);
           // Navigate to the main page
