@@ -19,6 +19,8 @@ import { useNavigate } from "react-router-dom";
 import { getUserApi } from "../api";
 import { useDispatch } from "react-redux";
 import { setUser } from "../store/userSlice";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const defaultTheme = createTheme();
 
@@ -36,7 +38,7 @@ export default function Login() {
 
     if (!email || !password || !selectedGroup) {
       // If any field is empty, show the error message and return
-      alert("Please fill in all the required fields.");
+      toast.error("Please fill in all the required fields.");
       return;
     }
 
@@ -54,9 +56,12 @@ export default function Login() {
           dispatch(setUser(user[0]));
           localStorage.setItem("userId", user[0].id);
           // Navigate to the main page
-          navigate("/main");
+         toast.success("Login successful");
+          setTimeout(() => {
+            navigate("/main");
+          }, 1000);
         } else {
-          alert("Invalid credentials");
+          toast.error("Invalid credentials");
         }
       }
     } catch (error) {
@@ -134,6 +139,7 @@ export default function Login() {
           </Box>
         </Box>
       </Container>
+      <ToastContainer />
     </ThemeProvider>
   );
 }
