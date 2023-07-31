@@ -1,6 +1,6 @@
 # Task-Management-AppTask Management App - README
 
-This is a simple Task Management application built using React, Redux, Material-UI and react-dnd. The app allows users to manage tasks based on their group type. Users can log in using their email, password, and select a group type. Upon successful login, the user is directed to the main page, where they can view, add, toggle task completion, and delete tasks.
+This is a Task Management application built using React, Redux, Material-UI and react-dnd. The app allows users to manage tasks based on their group type. Users can log in using their email, password, and select a group type. Upon successful login, the user is directed to the main page, where they can view, add, toggle task completion, and delete tasks.
 
 **Deployed Link:**
 https://task-management-system-test.netlify.app/
